@@ -3,254 +3,284 @@
 		{
 			"id": "Jonas",
 			"personas": [
-				"world1": [
-					"young": [
-						"name": "Jonas Kahnwald",
-						"pic": "jonas-w1-young.jpg"
-					],
-					"adult": [
-						"name": "the Stranger",
-						"pic": "jonas-w1-adult.jpg"
-					],
-					"old": [
-						"name": "Adam",
-						"pic": "jonas-w1-old.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "young",
+					"name": "Jonas Kahnwald",
+					"pic": "jonas-w1-young.jpg"
+				},
+				{
+					"world": "world1",
+					"age": "adult",
+					"name": "the Stranger",
+					"pic": "jonas-w1-adult.jpg"
+				}
+				,{
+					"world": "world1",
+					"age": "old",
+					"name": "Adam",
+					"pic": "jonas-w1-old.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Adam",
 			"personas": [
-				"world1": [
-					"old": [
-						"name": "Adam",
-						"pic": "jonas-w1-old.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "old",
+					"name": "Adam",
+					"pic": "jonas-w1-old.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Stranger",
 			"personas": [
-				"world1": [
-					"adult": [
-						"name": "the Stranger",
-						"pic": "jonas-w1-adult.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "adult",
+					"name": "the Stranger",
+					"pic": "jonas-w1-adult.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Mikkel",
 			"personas": [
-				"world1": [
-					"young": [
-						"name": "Mikkel Nielsen",
-						"pic": "mikkel-w1-young.jpg"
-					],
-					"adult": [
-						"name": "Michael Kahnwald",
-						"pic": "mikkel-w1-adult.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "young",
+					"name": "Mikkel Nielsen",
+					"pic": "mikkel-w1-young.jpg"
+				},
+				{
+					"world": "world1",
+					"age": "adult",
+					"name": "Michael Kahnwald",
+					"pic": "mikkel-w1-adult.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Michael",
 			"personas": [
-				"world1": [
-					"adult": [
-						"name": "Michael Kahnwald",
-						"pic": "mikkel-w1-adult.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "adult",
+					"name": "Michael Kahnwald",
+					"pic": "mikkel-w1-adult.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Hannah",
 			"personas": [
-				"world1": [
-					"young": [
-						"name": "Hannah Krüger",
-						"pic": "hannah-w1-young.jpg"
-					],
-					"adult": [
-						"name": "Hannah Kahnwald",
-						"pic": "hannah-w1-adult.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "young",
+					"name": "Hannah Krüger",
+					"pic": "hannah-w1-young.jpg"
+				},
+				{
+					"world": "world1",
+					"age": "adult",
+					"name": "Hannah Kahnwald",
+					"pic": "hannah-w1-adult.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Martha",
 			"personas": [
-				"world1": [
-					"young": [
-						"name": "Martha Nielsen",
-						"pic": "martha-w1-young.jpg"
-					]
-				],
-				"world2": [
-					"young": [
-						"name": "Martha Nielsen ?",
-						"pic": "martha-w2-young.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "young",
+					"name": "Martha Nielsen",
+					"pic": "martha-w1-young.jpg"
+				},
+				{
+					"world": "world2",
+					"age": "young",
+					"name": "Martha Nielsen",
+					"pic": "martha-w2-young.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Magnus",
 			"personas": [
-				"world1": [
-					"young": [
-						"name": "Magnus Nielsen",
-						"pic": "magnus-w1-young.jpg"
-					],
-					"adult": [
-						"name": "Magnus Nielsen ?",
-						"pic": "magnus-w1-adult.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "young",
+					"name": "Magnus Nielsen",
+					"pic": "magnus-w1-young.jpg"
+				},
+				{
+					"world": "world1",
+					"age": "adult",
+					"name": "Magnus Nielsen",
+					"pic": "magnus-w1-adult.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Katharina",
 			"personas": [
-				"world1": [
-					"young": [
-						"name": "Katharina Albers",
-						"pic": "katharina-w1-young.jpg"
-					],
-					"adult": [
-						"name": "Katharina Nielsen ?",
-						"pic": "katharina-w1-adult.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "young",
+					"name": "Katharina Albers",
+					"pic": "katharina-w1-young.jpg"
+				},
+				{
+					"world": "world1",
+					"age": "adult",
+					"name": "Katharina Nielsen",
+					"pic": "katharina-w1-adult.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Ulrich",
 			"personas": [
-				"world1": [
-					"young": [
-						"name": "Ulrich Nielsen",
-						"pic": "ulrich-w1-young.jpg"
-					],
-					"adult": [
-						"name": "Ulrich Nielsen",
-						"pic": "ulrich-w1-adult.jpg"
-					],
-					"old": [
-						"name": "Ulrich Nielsen",
-						"pic": "ulrich-w1-old.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "young",
+					"name": "Ulrich Nielsen",
+					"pic": "ulrich-w1-young.jpg"
+				},
+				{
+					"world": "world1",
+					"age": "adult",
+					"name": "Ulrich Nielsen",
+					"pic": "ulrich-w1-adult.jpg"
+				},
+				{
+					"world": "world1",
+					"age": "old",
+					"name": "Ulrich Nielsen",
+					"pic": "ulrich-w1-old.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Ines",
 			"personas": [
-				"world1": [
-					"adult": [
-						"name": "Ines Kahnwald",
-						"pic": "ulrich-w1-adult.jpg"
-					],
-					"old": [
-						"name": "Ines Kahnwald",
-						"pic": "ines-w1-old.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "adult",
+					"name": "Ines Kahnwald",
+					"pic": "ines-w1-adult.jpg"
+				},
+				{
+					"world": "world1",
+					"age": "old",
+					"name": "Ines Kahnwald",
+					"pic": "ines-w1-old.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Daniel",
 			"personas": [
-				"world1": [
-					"adult": [
-						"name": "Daniel Kahnwald",
-						"pic": "daniel-w1-adult.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "adult",
+					"name": "Daniel Kahnwald",
+					"pic": "daniel-w1-adult.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Tronte",
 			"personas": [
-				"world1": [
-					"young": [
-						"name": "Tronte Nielsen",
-						"pic": "tronte-w1-young.jpg"
-					],
-					"adult": [
-						"name": "Tronte Nielsen",
-						"pic": "tronte-w1-adult.jpg"
-					],
-					"old": [
-						"name": "Tronte Nielsen",
-						"pic": "tronte-w1-old.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "young",
+					"name": "Tronte Nielsen",
+					"pic": "tronte-w1-young.jpg"
+				},
+				{
+					"world": "world1",
+					"age": "adult",
+					"name": "Tronte Nielsen",
+					"pic": "tronte-w1-adult.jpg"
+				},
+				{
+					"world": "world1",
+					"age": "old",
+					"name": "Tronte Nielsen",
+					"pic": "tronte-w1-old.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Jana",
 			"personas": [
-				"world1": [
-					"young": [
-						"name": "Jana Nielsen",
-						"pic": "jana-w1-young.jpg"
-					],
-					"adult": [
-						"name": "Jana Nielsen",
-						"pic": "jana-w1-adult.jpg"
-					],
-					"old": [
-						"name": "Jana Nielsen",
-						"pic": "jana-w1-old.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "young",
+					"name": "Jana ?",
+					"pic": "jana-w1-young.jpg"
+				},
+				{
+					"world": "world1",
+					"age": "adult",
+					"name": "Jana Nielsen",
+					"pic": "jana-w1-adult.jpg"
+				},
+				{
+					"world": "world1",
+					"age": "old",
+					"name": "Jana Nielsen",
+					"pic": "jana-w1-old.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Mads",
 			"personas": [
-				"world1": [
-					"young": [
-						"name": "Mads Nielsen",
-						"pic": "mads-w1-young.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "young",
+					"name": "Mads Nielsen",
+					"pic": "mads-w1-young.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Agnes",
 			"personas": [
-				"world1": [
-					"young": [
-						"name": "Agnes ?",
-						"pic": "agnes-w1-young.jpg"
-					],
-					"adult": [
-						"name": "Agnes Nielsen",
-						"pic": "agnes-w1-adult.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "young",
+					"name": "Agnes ?",
+					"pic": "agnes-w1-young.jpg"
+				},
+				{
+					"world": "world1",
+					"age": "adult",
+					"name": "Agnes Nielsen",
+					"pic": "agnes-w1-adult.jpg"
+				}
 			]
 		}
 		,{
 			"id": "Noah",
 			"personas": [
-				"world1": [
-					"young": [
-						"name": "Noah ?",
-						"pic": "noah-w1-young.jpg"
-					],
-					"adult": [
-						"name": "Noah",
-						"pic": "noah-w1-adult.jpg"
-					]
-				]
+				{
+					"world": "world1",
+					"age": "young",
+					"name": "Noah",
+					"pic": "noah-w1-young.jpg"
+				},
+				{
+					"world": "world1",
+					"age": "adult",
+					"name": "Noah",
+					"pic": "noah-w1-adult.jpg"
+				}
 			]
 		}
 	],
@@ -259,6 +289,7 @@
 			"id": "1887",
 			"periodStart": "1887",
 			"periodEnd": "1887",
+			"episode": 400,
 			"characters": [
 				{
 					"id": "Jonas",
@@ -302,6 +333,7 @@
 			"id": "1920",
 			"periodStart": "1920",
 			"periodEnd": "1921",
+			"episode": 400,
 			"characters": [
 				{
 					"id": "Jonas",
@@ -342,7 +374,7 @@
 							"episode": 400
 						}
 					]
-				},
+				}
 				,{
 					"id": "Agnes",
 					"personas": [
@@ -375,6 +407,7 @@
 			"id": "1953",
 			"periodStart": "1953",
 			"periodEnd": "1954",
+			"episode": 400,
 			"characters": [
 				{
 					"id": "Agnes",
@@ -503,6 +536,7 @@
 			"id": "1955",
 			"periodStart": "1955",
 			"periodEnd": "1985",
+			"episode": 400,
 			"characters": [
 				{
 					"id": "Charlotte",
@@ -528,6 +562,7 @@
 			"id": "1986",
 			"periodStart": "1986",
 			"periodEnd": "1987",
+			"episode": 101,
 			"characters": [
 				{
 					"id": "Egon",
@@ -663,7 +698,7 @@
 					"personas": [
 						{
 							"id": "world1.young",
-							"episode": 400
+							"episode": 101
 						}
 					]
 				}
@@ -749,6 +784,7 @@
 			"id": "2019",
 			"periodStart": "2019",
 			"periodEnd": "2020",
+			"episode": 101,
 			"characters": [
 				{
 					"id": "Claudia",
@@ -795,7 +831,7 @@
 					"personas": [
 						{
 							"id": "world1.old",
-							"episode": 400
+							"episode": 101
 						}
 					]
 				}
@@ -811,8 +847,17 @@
 							"episode": 400
 						}
 						,{
-							"id": "world1.adam",
+							"id": "world1.old",
 							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Stranger",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 101
 						}
 					]
 				}
@@ -833,6 +878,15 @@
 							"episode": 101
 						}
 						,{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Michael",
+					"personas": [
+						{
 							"id": "world1.adult",
 							"episode": 101
 						}
@@ -983,6 +1037,7 @@
 			"id": "2021",
 			"periodStart": "2021",
 			"periodEnd": "2052",
+			"episode": 400,
 			"characters": [
 				{
 					"id": "Claudia",
@@ -1044,6 +1099,7 @@
 			"id": "2053",
 			"periodStart": "2053",
 			"periodEnd": "2054",
+			"episode": 400,
 			"characters": [
 				{
 					"id": "Jonas",
@@ -1076,8 +1132,9 @@
 		}
 		,{
 			"id": "alternate",
-			"periodStart": "-",
-			"periodEnd": "-",
+			"periodStart": "",
+			"periodEnd": "",
+			"episode": 400,
 			"characters": [
 				{
 					"id": "Jonas",
@@ -1093,6 +1150,12 @@
 					]
 				}
 			]
+		}
+	],
+	"charactersOrder": [
+		{
+			"episode": 101,
+			"characters": ["Regina", "Boris","Bartosz","Ines", "Jonas", "Hannah", "Michael", "Mikkel", "Martha", "Magnus", "Katharina", "Ulrich", "Mads", "Jana", "Tronte", "Charlotte", "Peter", "Franziska", "Helge"]
 		}
 	]
 }
