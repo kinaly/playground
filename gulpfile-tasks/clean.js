@@ -5,6 +5,7 @@ module.exports = function (paths) {
   	var customCleanList = [
   		paths.build.baseDir + '*.html',
   		paths.build.baseDir + '/colour-contrast-explorer',
+      paths.build.baseDir + '/darkology',
   		paths.build.styles,
   		paths.build.js,
   		paths.build.baseDir + '/views',

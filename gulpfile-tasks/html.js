@@ -7,6 +7,9 @@ module.exports = function (gulp, plugins, paths, fs) {
       .pipe(plugins.data(function() {
         return JSON.parse(fs.readFileSync(paths.src.html + '/data/data.json'));
       }))
+      .pipe(plugins.data(function() {
+        return JSON.parse(fs.readFileSync(paths.src.html + '/data/dark.json'));
+      }))
       .on('error', plugins.util.log)
       // Renders template with nunjucks
       .pipe(plugins.nunjucksRender({

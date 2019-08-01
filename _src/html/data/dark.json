@@ -1,0 +1,1098 @@
+{
+	"darkCharacters": [
+		{
+			"id": "Jonas",
+			"personas": [
+				"world1": [
+					"young": [
+						"name": "Jonas Kahnwald",
+						"pic": "jonas-w1-young.jpg"
+					],
+					"adult": [
+						"name": "the Stranger",
+						"pic": "jonas-w1-adult.jpg"
+					],
+					"old": [
+						"name": "Adam",
+						"pic": "jonas-w1-old.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Adam",
+			"personas": [
+				"world1": [
+					"old": [
+						"name": "Adam",
+						"pic": "jonas-w1-old.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Stranger",
+			"personas": [
+				"world1": [
+					"adult": [
+						"name": "the Stranger",
+						"pic": "jonas-w1-adult.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Mikkel",
+			"personas": [
+				"world1": [
+					"young": [
+						"name": "Mikkel Nielsen",
+						"pic": "mikkel-w1-young.jpg"
+					],
+					"adult": [
+						"name": "Michael Kahnwald",
+						"pic": "mikkel-w1-adult.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Michael",
+			"personas": [
+				"world1": [
+					"adult": [
+						"name": "Michael Kahnwald",
+						"pic": "mikkel-w1-adult.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Hannah",
+			"personas": [
+				"world1": [
+					"young": [
+						"name": "Hannah Krüger",
+						"pic": "hannah-w1-young.jpg"
+					],
+					"adult": [
+						"name": "Hannah Kahnwald",
+						"pic": "hannah-w1-adult.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Martha",
+			"personas": [
+				"world1": [
+					"young": [
+						"name": "Martha Nielsen",
+						"pic": "martha-w1-young.jpg"
+					]
+				],
+				"world2": [
+					"young": [
+						"name": "Martha Nielsen ?",
+						"pic": "martha-w2-young.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Magnus",
+			"personas": [
+				"world1": [
+					"young": [
+						"name": "Magnus Nielsen",
+						"pic": "magnus-w1-young.jpg"
+					],
+					"adult": [
+						"name": "Magnus Nielsen ?",
+						"pic": "magnus-w1-adult.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Katharina",
+			"personas": [
+				"world1": [
+					"young": [
+						"name": "Katharina Albers",
+						"pic": "katharina-w1-young.jpg"
+					],
+					"adult": [
+						"name": "Katharina Nielsen ?",
+						"pic": "katharina-w1-adult.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Ulrich",
+			"personas": [
+				"world1": [
+					"young": [
+						"name": "Ulrich Nielsen",
+						"pic": "ulrich-w1-young.jpg"
+					],
+					"adult": [
+						"name": "Ulrich Nielsen",
+						"pic": "ulrich-w1-adult.jpg"
+					],
+					"old": [
+						"name": "Ulrich Nielsen",
+						"pic": "ulrich-w1-old.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Ines",
+			"personas": [
+				"world1": [
+					"adult": [
+						"name": "Ines Kahnwald",
+						"pic": "ulrich-w1-adult.jpg"
+					],
+					"old": [
+						"name": "Ines Kahnwald",
+						"pic": "ines-w1-old.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Daniel",
+			"personas": [
+				"world1": [
+					"adult": [
+						"name": "Daniel Kahnwald",
+						"pic": "daniel-w1-adult.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Tronte",
+			"personas": [
+				"world1": [
+					"young": [
+						"name": "Tronte Nielsen",
+						"pic": "tronte-w1-young.jpg"
+					],
+					"adult": [
+						"name": "Tronte Nielsen",
+						"pic": "tronte-w1-adult.jpg"
+					],
+					"old": [
+						"name": "Tronte Nielsen",
+						"pic": "tronte-w1-old.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Jana",
+			"personas": [
+				"world1": [
+					"young": [
+						"name": "Jana Nielsen",
+						"pic": "jana-w1-young.jpg"
+					],
+					"adult": [
+						"name": "Jana Nielsen",
+						"pic": "jana-w1-adult.jpg"
+					],
+					"old": [
+						"name": "Jana Nielsen",
+						"pic": "jana-w1-old.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Mads",
+			"personas": [
+				"world1": [
+					"young": [
+						"name": "Mads Nielsen",
+						"pic": "mads-w1-young.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Agnes",
+			"personas": [
+				"world1": [
+					"young": [
+						"name": "Agnes ?",
+						"pic": "agnes-w1-young.jpg"
+					],
+					"adult": [
+						"name": "Agnes Nielsen",
+						"pic": "agnes-w1-adult.jpg"
+					]
+				]
+			]
+		}
+		,{
+			"id": "Noah",
+			"personas": [
+				"world1": [
+					"young": [
+						"name": "Noah ?",
+						"pic": "noah-w1-young.jpg"
+					],
+					"adult": [
+						"name": "Noah",
+						"pic": "noah-w1-adult.jpg"
+					]
+				]
+			]
+		}
+	],
+	"darkPeriods": [
+		{
+			"id": "1887",
+			"periodStart": "1887",
+			"periodEnd": "1887",
+			"characters": [
+				{
+					"id": "Jonas",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Bartosz",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Magnus",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Franziska",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+			]
+		}
+		,{
+			"id": "1920",
+			"periodStart": "1920",
+			"periodEnd": "1921",
+			"characters": [
+				{
+					"id": "Jonas",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+						,{
+							"id": "world1.old",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Bartosz",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Magnus",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Franziska",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				},
+				,{
+					"id": "Agnes",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+						,{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Noah",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+						,{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+			]
+		}
+		,{
+			"id": "1953",
+			"periodStart": "1953",
+			"periodEnd": "1954",
+			"characters": [
+				{
+					"id": "Agnes",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Noah",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Doris",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Egon",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Claudia",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+						,{
+							"id": "world1.old",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Daniel",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Hannah",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Ulrich",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Jana",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Tronte",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Helge",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Greta",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Bernd",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+			]
+		}
+		,{
+			"id": "1955",
+			"periodStart": "1955",
+			"periodEnd": "1985",
+			"characters": [
+				{
+					"id": "Charlotte",
+					"personas": [
+						{
+							"id": "world1.baby",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Tannhaus",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+			]
+		}
+		,{
+			"id": "1986",
+			"periodStart": "1986",
+			"periodEnd": "1987",
+			"characters": [
+				{
+					"id": "Egon",
+					"personas": [
+						{
+							"id": "world1.old",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Claudia",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+						,{
+							"id": "world1.old",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Regina",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Boris",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Bartosz",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Ines",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Jonas",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+						,{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Hannah",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+						,{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Mikkel",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Martha",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Magnus",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Katharina",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Ulrich",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Mads",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Jana",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Tronte",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Noah",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Elisabeth",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Charlotte",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Helge",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+						,{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Bernd",
+					"personas": [
+						{
+							"id": "world1.old",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Tannhaus",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+			]
+		}
+		,{
+			"id": "2019",
+			"periodStart": "2019",
+			"periodEnd": "2020",
+			"characters": [
+				{
+					"id": "Claudia",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+						,{
+							"id": "world1.old",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Regina",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Boris",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Bartosz",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 101
+						}
+					]
+				}
+				,{
+					"id": "Ines",
+					"personas": [
+						{
+							"id": "world1.old",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Jonas",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 101
+						}
+						,{
+							"id": "world1.adult",
+							"episode": 400
+						}
+						,{
+							"id": "world1.adam",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Hannah",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 101
+						}
+					]
+				}
+				,{
+					"id": "Mikkel",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 101
+						}
+						,{
+							"id": "world1.adult",
+							"episode": 101
+						}
+					]
+				}
+				,{
+					"id": "Martha",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 101
+						}
+					]
+				}
+				,{
+					"id": "Magnus",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 101
+						}
+					]
+				}
+				,{
+					"id": "Katharina",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 101
+						}
+					]
+				}
+				,{
+					"id": "Ulrich",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 101
+						}
+					]
+				}
+				,{
+					"id": "Jana",
+					"personas": [
+						{
+							"id": "world1.old",
+							"episode": 101
+						}
+					]
+				}
+				,{
+					"id": "Tronte",
+					"personas": [
+						{
+							"id": "world1.old",
+							"episode": 101
+						}
+					]
+				}
+				,{
+					"id": "Noah",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+						,{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Elisabeth",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 101
+						}
+					]
+				}
+				,{
+					"id": "Charlotte",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 101
+						}
+					]
+				}
+				,{
+					"id": "Peter",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 101
+						}
+					]
+				}
+				,{
+					"id": "Franziska",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 101
+						}
+					]
+				}
+				,{
+					"id": "Helge",
+					"personas": [
+						{
+							"id": "world1.old",
+							"episode": 101
+						}
+					]
+				}
+				,{
+					"id": "Tannhaus",
+					"personas": [
+						{
+							"id": "world1.old",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Bernadette",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Clausen",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+			]
+		}
+		,{
+			"id": "2021",
+			"periodStart": "2021",
+			"periodEnd": "2052",
+			"characters": [
+				{
+					"id": "Claudia",
+					"personas": [
+						{
+							"id": "world1.old",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Regina",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Noah",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Elisabeth",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Charlotte",
+					"personas": [
+						{
+							"id": "world1.baby",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Peter",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+			]
+		}
+		,{
+			"id": "2053",
+			"periodStart": "2053",
+			"periodEnd": "2054",
+			"characters": [
+				{
+					"id": "Jonas",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Elisabeth",
+					"personas": [
+						{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+				,{
+					"id": "Silja",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+					]
+				}
+			]
+		}
+		,{
+			"id": "alternate",
+			"periodStart": "-",
+			"periodEnd": "-",
+			"characters": [
+				{
+					"id": "Jonas",
+					"personas": [
+						{
+							"id": "world1.young",
+							"episode": 400
+						}
+						,{
+							"id": "world1.adult",
+							"episode": 400
+						}
+					]
+				}
+			]
+		}
+	]
+}
