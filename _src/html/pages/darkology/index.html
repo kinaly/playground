@@ -12,8 +12,55 @@
 	</header>
 
 	<main class="main-content">
+		{% set chosenEpisode = 101 %}
+		{% set episodeIndex = -1 %}
 
-		<p>Start here</p>
+		<!-- determine which index of charactersOrder to look for -->
+		{% for episode in charactersOrder %}
+		{% set episodeIndex = -1 %}
+		{% if episode.episode == chosenEpisode %}
+		{% set episodeIndex = loop.index0 %}
+		{% endif  %}
+		{% endfor %}
+
+		<p>Episode index : {{episodeIndex}}</p>
+
+
+		{% for period in darkPeriods %}
+		{% if period.episode <= chosenEpisode %}
+		<h2>{{period.id}}</h2>
+
+		{% for character in charactersOrder[episodeIndex].characters %}
+		
+		
+		{% for pcharacter in period.characters %}
+			{% if character == pcharacter.id %}
+				{% for ppersona in pcharacter.personas %}
+					{% if ppersona.episode <= chosenEpisode %}
+		<p>{{character}}</p>
+						{% for dcharacter in darkCharacters %}
+							{% if character == dcharacter.id %}
+								{% for dpersona in dcharacter.personas %}
+									{% if ppersona.id == dpersona.world + "." + dpersona.age %}
+		<img src="/img/dark-characters/{{dpersona.pic}}" alt="{{dpersona.name}}">
+		
+									{% endif %}
+								{% endfor %}
+							{% endif %}
+						{% endfor %}
+					{% endif %}
+				{% endfor %}
+			{% endif %}
+		{% endfor %}
+		
+		{% endfor %}
+
+		{% endif %}
+		{% endfor %}
+
+
+		
+
 		
 	</main>
 	
