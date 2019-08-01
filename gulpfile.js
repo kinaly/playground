@@ -14,7 +14,7 @@ var paths = {
 		baseDir: './_src',
 		html: './_src/html',
 		js: './_src/js/*.js',
-		img: './_src/img/*.{png,jpg,jpeg,gif,svg}',
+		img: './_src/img/**/*.{png,jpg,jpeg,gif,svg}',
 		styles: './_src/less/**/*.less',
 		libs: './_src/lib',
 		fonts: './_src/fonts/**/*'
