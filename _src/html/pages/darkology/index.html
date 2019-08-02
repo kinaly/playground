@@ -28,7 +28,7 @@
 			<div class="map">
 				{% for period in darkPeriods %}
 					{% if period.episode <= chosenEpisode %}
-				<h2 class="map__time-heading" data-period="{{period.id}}">{{period.name}}</h2>
+				<h2 class="map__time-heading" data-period="{{period.id}}" style="grid-row: header{{period.id}}-start / header{{period.id}}-end">{{period.name}}</h2>
 
 						{% for character in charactersOrder[episodeIndex].knownCharacters %}
 				
@@ -68,13 +68,6 @@
 				
 			</div>
 		</div>
-
-		
-		<div class="dummy01">
-			Yo
-		</div>
-		
-
 		
 	</main>
 	

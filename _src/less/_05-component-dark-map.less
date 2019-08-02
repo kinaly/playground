@@ -6,82 +6,19 @@
 
 .map {
 	display: grid;
-	// grid-template-columns: [full-start jonas-start] 1fr [jonas-end] 2fr [stranger-start] 1fr [stranger-end full-end];
-	grid-template-columns: [full-start header-start] repeat(13, 12em) [full-end header-end];
-	// grid-template-rows: [full-start header-start] auto [header-end young-start] 1fr [young-end adult-start] 1fr [adult-end old-start] 1fr [full-end old-end];
 }
 
 
 
 .map__time-heading {
 	grid-column: full-start ~"/" full-end;
-	// grid-area: header;
 }
+
 
 
 
 .map__avatar {
 	text-align: center;
-
-	&.--is-jonas {
-		grid-column: jonas-start ~"/" jonas-end;
-	}
-
-	&.--is-stranger {
-		grid-column: stranger-start ~"/" stranger-end;
-	}
-
-	&.--is-adam {
-		grid-column: adam-start ~"/" adam-end;
-	}
-
-	&.--is-mikkel {
-		grid-column: mikkel-start ~"/" mikkel-end;
-	}
-
-	&.--is-hannah {
-		grid-column: hannah-start ~"/" hannah-end;
-	}
-
-	&.--is-michael {
-		grid-column: michael-start ~"/" michael-end;
-	}
-
-	&.--is-martha {
-		grid-column: martha-start ~"/" martha-end;
-	}
-
-	&.--is-magnus {
-		grid-column: magnus-start ~"/" magnus-end;
-	}
-
-	&.--is-katharina {
-		grid-column: katharina-start ~"/" katharina-end;
-	}
-
-	&.--is-ulrich {
-		grid-column: ulrich-start ~"/" ulrich-end;
-	}
-
-	&.--is-mads {
-		grid-column: mads-start ~"/" mads-end;
-	} 
-
-	&.--is-jana {
-		grid-column: jana-start ~"/" jana-end;
-	}
-
-	&.--is-tronte {
-		grid-column: tronte-start ~"/" tronte-end;
-	}
-
-	&.--is-agnes {
-		grid-column: agnes-start ~"/" agnes-end;
-	}
-
-	&.--is-noah {
-		grid-column: noah-start ~"/" noah-end;
-	}
 }
 
 .map__avatar-img {
