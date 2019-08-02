@@ -5,65 +5,80 @@
 		<title>Darkology - A tentative diagram of the Dark series chronology and characters</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="/css/darkology.css" media="all">
+
+		<style></style>
 </head>
 <body>
 	<header class="main-header">
-		Some header for some controls
+		Header for some controls
 	</header>
 
 	<main class="main-content">
-		{% set chosenEpisode = 101 %}
+		{% set chosenEpisode = charactersOrder[charactersOrder.length - 1].episode %}
 		{% set episodeIndex = -1 %}
 
-		<!-- determine which index of charactersOrder to look for -->
+		<!-- Find the loop index in charactersOrder of the chosen episode -->
 		{% for episode in charactersOrder %}
-		{% set episodeIndex = -1 %}
-		{% if episode.episode == chosenEpisode %}
-		{% set episodeIndex = loop.index0 %}
-		{% endif  %}
+			{% if episode.episode == chosenEpisode %}
+				{% set episodeIndex = loop.index0 %}
+			{% endif  %}
 		{% endfor %}
 
-		<p>Episode index : {{episodeIndex}}</p>
+		<div class="map-boundaries">
+			<div class="map">
+				{% for period in darkPeriods %}
+					{% if period.episode <= chosenEpisode %}
+				<h2 class="map__time-heading" data-period="{{period.id}}">{{period.name}}</h2>
 
+						{% for character in charactersOrder[episodeIndex].knownCharacters %}
+				
+				
+							{% for pcharacter in period.characters %}
+								{% if character == pcharacter.id %}
+									{% for ppersona in pcharacter.personas %}
+										{% if ppersona.episode <= chosenEpisode %}
+											{% for dcharacter in darkCharacters %}
+												{% if character == dcharacter.id %}
+													{% for dpersona in dcharacter.personas %}
+														{% if ppersona.id == dpersona.world + "." + dpersona.age %}
 
-		{% for period in darkPeriods %}
-		{% if period.episode <= chosenEpisode %}
-		<h2>{{period.id}}</h2>
-
-		{% for character in charactersOrder[episodeIndex].characters %}
-		
-		
-		{% for pcharacter in period.characters %}
-			{% if character == pcharacter.id %}
-				{% for ppersona in pcharacter.personas %}
-					{% if ppersona.episode <= chosenEpisode %}
-		<p>{{character}}</p>
-						{% for dcharacter in darkCharacters %}
-							{% if character == dcharacter.id %}
-								{% for dpersona in dcharacter.personas %}
-									{% if ppersona.id == dpersona.world + "." + dpersona.age %}
-		<img src="/img/dark-characters/{{dpersona.pic}}" alt="{{dpersona.name}}">
-		
-									{% endif %}
-								{% endfor %}
-							{% endif %}
+															{% set avatar = { 
+																"id": dcharacter.id,
+																"pic": dpersona.pic,
+																"name": dpersona.name,
+																"age": dpersona.age,
+																"period": period.id
+															} %}
+															
+															{% include "views/dark-avatar.html" %}					
+				
+														{% endif %}
+													{% endfor %}
+												{% endif %}
+											{% endfor %}
+										{% endif %}
+									{% endfor %}
+								{% endif %}
+							{% endfor %}
+							
 						{% endfor %}
+
 					{% endif %}
 				{% endfor %}
-			{% endif %}
-		{% endfor %}
+				
+			</div>
+		</div>
+
 		
-		{% endfor %}
-
-		{% endif %}
-		{% endfor %}
-
-
+		<div class="dummy01">
+			Yo
+		</div>
 		
 
 		
 	</main>
 	
+	<script src="/js/darkology.js" type="text/javascript"></script>
 
 </body>
 </html>

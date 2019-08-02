@@ -1,1 +1,19 @@
-// styles here
+body {
+	display: flex;
+	flex-direction: column;
+
+	width: 100vw;
+	height: 100vh;
+}
+
+.main-header {
+	flex: 0 0 auto;
+	padding: .25rem .5rem;
+
+	background-color: #303030;
+	color: #fff;
+}
+
+.main-content {
+	flex: 1 0 50%; // flex-basis value needs to be different than auto so that child element can be calculated correctly
+}
