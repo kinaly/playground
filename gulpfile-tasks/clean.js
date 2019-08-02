@@ -9,6 +9,7 @@ module.exports = function (paths) {
   		paths.build.styles,
   		paths.build.js,
   		paths.build.baseDir + '/views',
+      paths.build.baseDir + '/data',
   		paths.build.img
   	];
 
