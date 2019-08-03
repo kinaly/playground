@@ -2,6 +2,8 @@ const jsonData = '../data/dark.json';
 
 const map = document.querySelector(".map");
 
+const episodeSwitch = document.getElementById("episode-switch");
+
 const head = document.head;
 
 const headStyles = head.querySelector("style");
@@ -10,29 +12,34 @@ const headStyles = head.querySelector("style");
 
 
 
-const dummy01 = document.querySelector(".dummy01");
+gridSetup();
 
-gridSetup(dummy01);
+episodeSwitch.addEventListener('change', function(e) {
+	// gridSetup(this.value);
+
+	// todo
+	// avatarSetup
+	// connectionsSetup
+});
 
 
 
 
-
-function gridSetup(element, targetEpisode) {
+function gridSetup(targetEpisode) {
 	fetch(jsonData)
 		.then(response => response.json())
 		.then(function(data) {
 
-			const charactersReferenceList = data.darkCharacters;
+			// const charactersReferenceList = data.darkCharacters;
 
-			const charactersOrderList = data.charactersOrder;
+			const allEpisodes = data.episodes;
 
 			const periods = data.darkPeriods;
 
 			// Grab latest episode if targetEpisode is unspecified
-			let episode = targetEpisode ? targetEpisode : charactersOrderList[charactersOrderList.length - 1].episode;
+			const episode = targetEpisode ? targetEpisode : allEpisodes[allEpisodes.length - 1].id;
 
-			let knownCharacters = charactersOrderList.filter(item => item.episode == episode)[0].knownCharacters;
+			const knownCharacters = allEpisodes.filter(item => item.id == episode)[0].knownCharacters;
 
 			let templateColumnSetup = "";
 
@@ -48,7 +55,7 @@ function gridSetup(element, targetEpisode) {
 
 			let templateRowSetup = "";
 
-			let knownPeriods = periods.filter(item => item.episode <= episode);
+			const knownPeriods = periods.filter(item => item.episode <= episode);
 
 			for (var i = 0; i < knownPeriods.length; i++) {
 				if (i == 0) {
@@ -60,6 +67,8 @@ function gridSetup(element, targetEpisode) {
 				}
 			}
 
-			headStyles.innerHTML = ".map { grid-template-columns: " + templateColumnSetup + "; grid-template-rows: " + templateRowSetup + "; }";
+			headStyles.innerHTML = ".map { display: grid; grid-template-columns: " + templateColumnSetup + "; grid-template-rows: " + templateRowSetup + "; }";
+		})
+}
 		})
 }

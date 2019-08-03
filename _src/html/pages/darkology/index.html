@@ -26,11 +26,12 @@
 
 		<div class="map-boundaries">
 			<div class="map">
+				<div class="map__stripes"></div>
 				{% for period in darkPeriods %}
 					{% if period.episode <= chosenEpisode %}
 				<h2 class="map__time-heading" data-period="{{period.id}}" style="grid-row: header{{period.id}}-start / header{{period.id}}-end">{{period.name}}</h2>
 
-						{% for character in charactersOrder[episodeIndex].knownCharacters %}
+						{% for character in episodes[episodeIndex].knownCharacters %}
 				
 				
 							{% for pcharacter in period.characters %}

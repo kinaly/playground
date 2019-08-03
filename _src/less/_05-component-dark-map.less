@@ -1,12 +1,29 @@
 .map-boundaries {
-	width: 100%;
+	width: 90%;
 	height: 90vh;
+	margin: 5vh 5%;
+
 	overflow: scroll;
+
+	outline: 1px solid orange;
 }
 
 .map {
-	display: grid;
 	--map-cell-width: 12em;
+	
+	// will be injected with JS, removed from here to have a somewhat viewable list if JS hasn't kicked in
+	// display: grid;
+
+	font-size: 2em;
+	
+	transform: scale(.25);
+	transform-origin: 0 0;
+}
+
+.map__stripes {
+	grid-area: full;
+
+	background-image: repeating-linear-gradient(to left, #fff, #fff var(--map-cell-width), beige var(--map-cell-width), beige ~"calc(var(--map-cell-width) * 2)");
 }
 
 
@@ -15,6 +32,7 @@
 	grid-column: full-start ~"/" full-end;
 
 	padding: 1rem;
+	margin: 0;
 
 	border-top: 1px solid grey;
 }
@@ -23,9 +41,20 @@
 
 
 .map__avatar {
+	padding: 1em;
 	text-align: center;
 }
 
+.map__avatar-name {
+	margin: .5em 0 0;
+}
+
 .map__avatar-img {
-	max-width: 10em;
+	max-width: 5em;
+}
+
+
+
+.map__arrow {
+	background-color: rgba(23, 45, 67, .5);
 }

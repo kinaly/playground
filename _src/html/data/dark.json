@@ -1426,17 +1426,23 @@
 			]
 		}
 	],
-	"charactersOrder": [
+	"episodes": [
 		{
-			"episode": 101,
+			"id": 101,
+			"name": "Season 1 Episode 1",
+			"title": "",
 			"knownCharacters": ["Regina", "Boris", "Bartosz", "Ines", "Jonas", "Hannah", "Michael", "Mikkel", "Martha", "Magnus", "Katharina", "Ulrich", "Mads", "Jana", "Tronte", "Charlotte", "Peter", "Franziska", "Helge"]
 		},
 		{
-			"episode": 102,
+			"id": 102,
+			"name": "Season 1 Episode 2",
+			"title": "",
 			"knownCharacters": ["Regina", "Boris", "Bartosz", "Stranger", "Ines", "Jonas", "Hannah", "Michael", "Mikkel", "Martha", "Magnus", "Katharina", "Ulrich", "Mads", "Jana", "Tronte", "Charlotte", "Peter", "Franziska", "Helge"]
 		},
 		{
-			"episode": 400,
+			"id": 400,
+			"name": "Both Seasons + Educated guess",
+			"title": "",
 			"knownCharacters": ["Doris","Egon","Claudia","Regina", "Boris", "Bartosz", "Daniel", "Ines", "Jonas", "Hannah", "Mikkel", "Martha", "Magnus", "Katharina", "Ulrich", "Mads", "Jana", "Tronte", "Agnes", "Noah", "Elisabeth", "Charlotte", "Peter", "Franziska", "Helge", "Greta", "Bernd", "Silja", "Tannhaus", "Woller", "Bernadette", "Clausen"]
 		}
 	]
