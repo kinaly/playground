@@ -9,20 +9,28 @@
 		<style></style>
 </head>
 <body>
+	{% set chosenEpisode = episodes[episodes.length - 1].id %}
+	{% set episodeIndex = -1 %}
+
+	<!-- Find the loop index in episodes of the chosen episode -->
+	{% for episode in episodes %}
+		{% if episode.id == chosenEpisode %}
+			{% set episodeIndex = loop.index0 %}
+		{% endif  %}
+	{% endfor %}
+
 	<header class="main-header">
-		Header for some controls
+		<span class="form-item">
+			<label for="episode-switch" class="form-item__label">How far have you watched ?</label>
+			<select name="episode-switch" id="episode-switch" class="form-item__select">
+				{% for episode in episodes %}
+				<option value="{{episode.id}}" {% if episode.id == chosenEpisode %}selected="selected"{% endif %}>{{episode.name}}</option>
+				{% endfor %}
+			</select>
+		</span>
 	</header>
 
 	<main class="main-content">
-		{% set chosenEpisode = charactersOrder[charactersOrder.length - 1].episode %}
-		{% set episodeIndex = -1 %}
-
-		<!-- Find the loop index in charactersOrder of the chosen episode -->
-		{% for episode in charactersOrder %}
-			{% if episode.episode == chosenEpisode %}
-				{% set episodeIndex = loop.index0 %}
-			{% endif  %}
-		{% endfor %}
 
 		<div class="map-boundaries">
 			<div class="map">
@@ -65,6 +73,11 @@
 						{% endfor %}
 
 					{% endif %}
+				{% endfor %}
+
+
+				{% for connection in connections %}
+					{% include "views/dark-connection.html" %}
 				{% endfor %}
 				
 			</div>
