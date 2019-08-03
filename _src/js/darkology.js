@@ -35,15 +35,14 @@ function gridSetup(element, targetEpisode) {
 			let knownCharacters = charactersOrderList.filter(item => item.episode == episode)[0].knownCharacters;
 
 			let templateColumnSetup = "";
-			const cellWidth = "12em";
 
 			for (var i = 0; i < knownCharacters.length; i++) {
 				if (i == 0) {
-					templateColumnSetup = templateColumnSetup + "[full-start " + knownCharacters[i].toLowerCase() + "-start] " + cellWidth;
+					templateColumnSetup = templateColumnSetup + "[full-start " + knownCharacters[i].toLowerCase() + "-start] var(--map-cell-width)";
 				} else if (i > 0 && i < (knownCharacters.length - 1)) {
-					templateColumnSetup = templateColumnSetup + " [ " + knownCharacters[i-1].toLowerCase() + "-end " + knownCharacters[i].toLowerCase() + "-start] " + cellWidth;
+					templateColumnSetup = templateColumnSetup + " [ " + knownCharacters[i-1].toLowerCase() + "-end " + knownCharacters[i].toLowerCase() + "-start] var(--map-cell-width)";
 				} else {
-					templateColumnSetup = templateColumnSetup + " [" + knownCharacters[i-1].toLowerCase() + "-end " + knownCharacters[i].toLowerCase() + "-start] " + cellWidth + " [" + knownCharacters[i].toLowerCase() + "-end full-end]";
+					templateColumnSetup = templateColumnSetup + " [" + knownCharacters[i-1].toLowerCase() + "-end " + knownCharacters[i].toLowerCase() + "-start] var(--map-cell-width) [" + knownCharacters[i].toLowerCase() + "-end full-end]";
 				}
 			}
 
