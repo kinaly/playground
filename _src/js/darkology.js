@@ -70,5 +70,3 @@ function gridSetup(targetEpisode) {
 			headStyles.innerHTML = ".map { display: grid; grid-template-columns: " + templateColumnSetup + "; grid-template-rows: " + templateRowSetup + "; }";
 		})
 }
-		})
-}
