@@ -1,0 +1,51 @@
+body {
+	// colours definition
+	// --c- Prefix for colours definition variables
+	--c-slate-gray: #353a45;
+	--c-slate-gray-light: lighten(#353a45, 5%);
+	--c-slate-gray-dark: darken(#353a45, 5%);
+	
+	--c-peach: #fdccb4;
+	--c-peach-light: lighten(#fdccb4, 5%);
+	
+	--c-steel-blue: #455f79;
+	
+	--c-strawberry: #963256;
+	--c-strawberry-dark: #642139;
+	
+	--c-baby-pink: #e9adc2;
+	--c-baby-pink-dark: darken(#e9adc2, 5%);
+	
+	
+
+	// colours attribution
+	// these variables correlate the colours defined above to variables that will be re-used across all styles
+	--text-color-default: var(--c-slate-gray);
+	--text-color-on-high-contrast-default: var(--c-peach-light);
+	--headings-color-default: var(--c-steel-blue);
+	--link-color-default: var(--c-strawberry);
+	--link-color-hover: var(--c-strawberry-dark);
+	--link-color-on-high-contrast-default: var(--c-baby-pink);
+	--link-color-on-high-contrast-hover: var(--c-baby-pink-dark);
+	--bg-color-default: var(--c-peach);
+	--bg-color-high-contrast: var(--c-slate-gray);
+	--bg-color-high-contrast-hover: var(--c-slate-gray-dark);
+
+
+
+	padding: 2em 3em;
+	background-color: var(--bg-color-default);
+	color: var(--text-color-default);
+}
+
+h1 {
+	color: var(--headings-color-default);
+}
+
+a {
+	color: var(--link-color-default);
+
+	&:hover {
+		color: var(--link-color-hover);
+	}
+}
