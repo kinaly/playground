@@ -2,13 +2,29 @@ body {
 	// colours definition
 	// --c- Prefix for colours definition variables
 	--c-slate-gray: #353a45;
-	--c-slate-gray-light: lighten(#353a45, 5%);
+	--c-slate-gray-light: #7C8497;
+	--c-slate-gray-lighter: #A7ADBA;
 	--c-slate-gray-dark: darken(#353a45, 5%);
 	
 	--c-peach: #fdccb4;
-	--c-peach-light: lighten(#fdccb4, 5%);
+	--c-peach-light: #FDD6C3;
+	--c-peach-lighter: #FEE0D2;
+	--c-peach-lightest: #FEEBE1;
+	--c-peach-dark: #993E12;
+
+	--c-muted-teal: #8abac1;
+	--c-muted-teal-dark: #629DA6;
+	--c-muted-teal-darker: #48777E;
+	--c-muted-teal-darkest: #304F54;
 	
 	--c-steel-blue: #455f79;
+	--c-steel-blue-light: #5F7F9F;
+	--c-steel-blue-lighter: #879EB7;
+	--c-steel-blue-dark: #374c61;
+
+	--c-mauve: #D5C3C7;
+	--c-mauve-light: #AB8791;
+	--c-mauve-lighter: #C0A5AC;
 	
 	--c-strawberry: #963256;
 	--c-strawberry-dark: #642139;
@@ -16,20 +32,51 @@ body {
 	--c-baby-pink: #e9adc2;
 	--c-baby-pink-dark: darken(#e9adc2, 5%);
 	
-	
+	--c-faded-khaki: #D3D1A0;
+
 
 	// colours attribution
 	// these variables correlate the colours defined above to variables that will be re-used across all styles
+	//
+	// default and alternate should have the same range of contrast ratio with white (or black)
 	--text-color-default: var(--c-slate-gray);
-	--text-color-on-high-contrast-default: var(--c-peach-light);
+	--text-color-alternate: var(--text-color-default);
+	--text-color-on-soft-accent: var(--text-color-default);
+	--text-color-on-accent: #fff;
+	--text-color-on-strong-accent: var(--text-color-default);
+	
 	--headings-color-default: var(--c-steel-blue);
-	--link-color-default: var(--c-strawberry);
-	--link-color-hover: var(--c-strawberry-dark);
-	--link-color-on-high-contrast-default: var(--c-baby-pink);
-	--link-color-on-high-contrast-hover: var(--c-baby-pink-dark);
+	--headings-color-alternate: var(--headings-color-default);
+	--headings-color-on-soft-accent: var(--headings-color-default);
+	--headings-color-on-accent: var(--c-steel-blue-dark);
+	--headings-color-on-strong-accent: var(--headings-color-default);
+	
+	--link-color-default: var(--c-muted-teal-darker);
+	--link-color-default-hover: var(--c-muted-teal-dark);
+	--link-color-on-soft-accent: var(--link-color-default);
+	--link-color-on-soft-accent-hover: var(--link-color-on-soft-accent);
+	--link-color-on-accent: var(--link-color-default);
+	--link-color-on-accent-hover: var(--link-color-on-accent);
+	--link-color-on-strong-accent: var(--c-muted-teal);
+	--link-color-on-strong-accent-hover: var(--link-color-on-strong-accent);
+
+	--accent-text-color-default: var(--text-color-default);
+	--accent-text-color-alternate: var(--accent-text-color-default);
+	--accent-text-color-on-soft-accent: var(--accent-text-color-default);
+	--accent-text-color-on-accent: var(--accent-text-color-default);
+	--accent-text-color-on-strong-accent: var(--accent-text-color-default);
+	
 	--bg-color-default: var(--c-peach);
-	--bg-color-high-contrast: var(--c-slate-gray);
-	--bg-color-high-contrast-hover: var(--c-slate-gray-dark);
+	--bg-color-alternate: var(--c-faded-khaki);
+	--bg-color-soft-accent: var(--c-peach-light);
+	--bg-color-accent: var(--c-steel-blue-lighter);
+	--bg-color-strong-accent: var(--c-slate-gray);
+
+	--border-color-default: var(--c-mauve);
+	--border-color-alternate: var(--border-color-default);
+	--border-color-soft-accent: var(--border-color-default);
+	--border-color-accent: var(--border-color-default);
+	--border-color-strong-accent: var(--border-color-default);
 
 
 
